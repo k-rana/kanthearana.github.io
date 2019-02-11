@@ -1,0 +1,42 @@
+body {
+Color: yellow;
+background-image: url("mom.jpg");
+    background-size: 370px
+}
+section{
+    color: #2d6e86;
+    background-color: rgba(255, 252, 242, 0.62);
+    text-align: justify;
+    padding-top: 15;
+    transform: translateY(5%);
+    font-family: 'Caveat', cursive;
+    font-size: 30
+}
+
+/* SAME FOR ALL*/
+
+.footer {
+   position: fixed;
+   left:0 ;
+   bottom: 0;
+   width: 11%;
+    color: white;
+   text-align: left;
+}
+
+.clickme{
+    color: white  !important;
+    font-size: 15;
+    font-family: 'Indie flower', cursive;
+    background-color: rgba(255, 192, 203, 0.82);
+    padding-bottom: 5;
+    padding-top: 5;
+    top: 50%;
+    transform: translateY(50%);
+}
+a:active {
+    color: white;
+}
+a:visited {
+    color:white;
+}

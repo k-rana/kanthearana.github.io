@@ -1,0 +1,43 @@
+body {
+    background-image: url("theone.jpg");
+    background-size: 300px
+}
+
+section{
+    color: white;
+    background-color: rgba(21, 28, 42, 0.51);
+    text-align: justify;
+    padding-top: 15;
+    transform: translateY(5%);
+    font-family: 'Sacramento', cursive;
+    font-size: 30;
+}
+
+
+/* SAME FOR ALL*/
+
+.footer {
+   position: fixed;
+   left:0 ;
+   bottom: 0;
+   width: 11%;
+   color: white;
+   text-align: left;
+}
+
+.clickme{
+    color: white  !important;
+    font-size: 15;
+    font-family: 'Indie flower', cursive;
+    background-color: rgba(255, 192, 203, 0.82);
+    padding-bottom: 5;
+    padding-top: 5;
+    top: 50%;
+    transform: translateY(50%);
+}
+a:active {
+    color: white;
+}
+a:visited {
+    color:white;
+}

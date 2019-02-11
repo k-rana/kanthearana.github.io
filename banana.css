@@ -1,0 +1,44 @@
+body { background-image: url("banana.jpg");
+    background-size: 250px
+}
+
+section{
+    color: #606060;
+    background-color: rgba(255, 252, 242, 0.62);
+    text-align: justify;
+    line-height: 2;
+    padding-top: 15;
+    transform: translateY(5%);
+    font-family: 'Coming Soon', cursive;
+    font-size: 21
+}
+
+
+
+/* SAME FOR ALL*/
+
+.footer {
+   position: fixed;
+   left:0 ;
+   bottom: 0;
+   width: 11%;
+   color: white;
+   text-align: left;
+}
+
+.clickme{
+    color: white  !important;
+    font-size: 15;
+    font-family: 'Indie flower', cursive;
+    background-color: rgba(255, 192, 203, 0.82);
+    padding-bottom: 5;
+    padding-top: 5;
+    top: 50%;
+    transform: translateY(50%);
+}
+a:active {
+    color: white;
+}
+a:visited {
+    color:white;
+}
