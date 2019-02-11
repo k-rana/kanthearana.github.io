@@ -66,6 +66,8 @@ a:visited {
     transform: translateY(-30%);
 }
 .footer{
+    position:absolute;
+    bottom:0;
     background-color: #e0e0e0;
     color: #dd6e82; 
     padding-left: 30;
