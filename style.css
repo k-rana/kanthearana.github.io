@@ -1,7 +1,22 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body{
     background-image: url(greybg.jpeg);
     background-size: 700px;
     color: grey;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }
 
 .display-4{
@@ -52,7 +67,7 @@ a:active {
     color: gray;
 }
 a:visited {
-    color:gray;
+    color: gray;
 }
 
 .titletitle{
@@ -66,20 +81,15 @@ a:visited {
     transform: translateY(-30%);
 }
 .footer{
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
+    width: 100%;
    background-color: #e0e0e0;
    color:  #dd6e82;
-   text-align: left;
-    padding-left: 30;
-    padding-top: 15;
-    padding-bottom: 10;
+    
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+    padding-left: 5;
+    padding-top: 5;
+    padding-bottom: 3;
 }
-
-
-
-
-
-
